@@ -1,0 +1,112 @@
+.header {
+    position: fixed;
+    background-image: url("images/earthsea.jpg");
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+}
+
+.nav {
+    display: flex;
+    float: right;
+}
+
+/* Position all elements inside the header horizontally *
+*/
+.nav * {
+    display: inline;
+    margin: 3px;
+    right: 0px;
+}
+
+
+p {
+    font-family: 'Reenie Beany';
+    font-size: 2em;
+    width: 80%;
+    margin-left: 150px;
+}
+
+.container {
+    height: 90px;
+    width: 50%;
+    display: block;
+    background-color:cornsilk;
+  }
+@font-face {
+    font-family: 'Reenie Beany';
+    src: url('/fonts/Reenie_Beanie/ReenieBeanie-Regular.ttf');
+}
+.Reenie-Beany {
+    font-family: 'Reenie Beany';
+    font-size: 4em;
+}
+
+.emoji {
+    font-size: 2.5em;
+    animation: buzz 4s linear infinite;
+
+}
+
+body {
+    margin-top: 120px;
+}
+
+h1 {
+    font-family: 'Reenie Beany';
+    font-size: 60px;
+    font-weight: normal;
+    padding: 30px;
+}
+
+@keyframes buzz {
+    0%, 100% {
+        position: absolute;
+        transform: translateY(0);
+        width: 0.87em;
+        top: 110px;
+        left: 66%;
+    }
+    
+    50% {
+        position: absolute;
+        transform: translateY(-12px);
+        width: 0.87em;
+        top: 110px;
+        left: 66%;
+    }
+}
+
+.center {
+    text-align: center;
+}
+
+.button {
+    background-color: tan;
+    color: black;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    font-family: 'Reenie Beany';
+    border: 2px gray;
+    border-radius: 12px;
+
+}
+
+/* 'Click' effect is essentialy moving the button down whilst
+ * casting a shadow
+*/
+.button:active {
+    background-color: tan;
+    box-shadow: 0 5px #6a6161;
+    transform: translateY(4px);
+}
+
+
+
+
