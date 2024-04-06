@@ -38,7 +38,7 @@ p {
   }
 @font-face {
     font-family: 'Reenie Beany';
-    src: url('../fonts/Reenie_Beanie/ReenieBeanie-Regular.ttf');
+    src: url('fonts/Reenie_Beanie/ReenieBeanie-Regular.ttf');
 }
 .Reenie-Beany {
     font-family: 'Reenie Beany';
