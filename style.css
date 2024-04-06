@@ -16,17 +16,9 @@ p {
     margin-left: 150px;
 }
 
-.container {
-    height: 90px;
-    width: 50%;
-    display: block;
-    background-color:cornsilk;
-}
-
 .center {
     text-align: center;
 }
-
 
 /* NAV BAR */
 .header {
@@ -76,7 +68,7 @@ p {
         position: absolute;
         transform: translateY(0);
         width: 0.87em;
-        top: 142px;
+        top: 135px;
         left: 66%;
     }
     
@@ -84,7 +76,7 @@ p {
         position: absolute;
         transform: translateY(-12px);
         width: 0.87em;
-        top: 142px;
+        top: 130px;
         left: 66%;
     }
 }
@@ -93,7 +85,7 @@ p {
 .button {
     background-color: tan;
     color: black;
-    padding: 5px 20px;
+    padding: 0px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -112,6 +104,23 @@ p {
     box-shadow: 0 5px #6a6161;
     transform: translateY(4px);
 }
+
+/* TOGGLES */
+.custom-toggler.navbar-toggler {
+    border-color: olive;
+    font-family: 'Reenie Beany';
+    font-size: 30px;
+    margin-left: 170px;
+}
+.custom-collapse.navbar-collapse {
+    font-family: 'Reenie Beany';
+    font-size: 30px;
+}
+
+
+
+
+
 
 
 
