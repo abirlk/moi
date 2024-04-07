@@ -81,7 +81,7 @@ p {
     }
 }
 
-/* BUTTONS */
+/* MENU BUTTON */
 .button {
     background-color: tan;
     color: black;
@@ -105,23 +105,33 @@ p {
     transform: translateY(4px);
 }
 
-/* TOGGLES */
-.custom-toggler.navbar-toggler {
-    border-color: olive;
-    font-family: 'Reenie Beany';
-    font-size: 30px;
-    margin-left: 170px;
-}
-.custom-collapse.navbar-collapse {
-    font-family: 'Reenie Beany';
-    font-size: 30px;
+.button:hover {
+    background-color: darkkhaki; 
+    color: white;
 }
 
+/* BUTTON TO DISPLAY SKILLS*/
+.skills {
+    background-color: white;
+    border-color: beige;
+    border-width: 1px;
+    border-radius: 3px;
+    padding: 0px 20px;
+    font-size: 25px;
+    font-family: 'Reenie Beany';
+}
 
+.hide {
+    display: none;
+}
 
+.skills:hover {
+    background-color: #BDD3B9; 
+    color: white;
+}
 
-
-
-
-
-
+.skills:hover + .hide {
+    display: inline-block;
+    font-family: 'Reenie Beany';
+    font-size: 30px;
+}
