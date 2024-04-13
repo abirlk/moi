@@ -6,7 +6,7 @@ const typeWriter = () => {
    if (i < intro.length) {
         document.getElementById("greeting").innerHTML += intro.charAt(i);
         i++;
-        setTimeout(typeWriter, 80);
+        setTimeout(typeWriter, 85);
     }
 }
 
