@@ -161,6 +161,7 @@ p {
     animation: textclip 6s linear infinite;
     display: inline-block;
     font-size: 68px;
+    font-weight: bold;
 }
 
 @keyframes textclip {
