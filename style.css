@@ -140,3 +140,33 @@ p {
     font-family: 'Reenie Beany';
     font-size: 30px;
 }
+
+/* COLOURED TEXT ANIMATION */
+/* source: https://codepen.io/alvarotrigo/pen/PoKMyNO */
+.animate-text {
+    background-image: linear-gradient(
+        -225deg,
+        peachpuff 2%,
+        sienna 29%,
+        darkseagreen 67%,
+        sandybrown 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 6s linear infinite;
+    display: inline-block;
+    font-size: 68px;
+}
+
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+}
+
+
