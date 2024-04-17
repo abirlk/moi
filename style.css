@@ -3,6 +3,7 @@ h1 {
     font-size: 60px;
     font-weight: normal;
     padding: 30px;
+    margin-bottom: -50px;
 }
 
 body {
@@ -60,24 +61,18 @@ p {
 .emoji {
     font-size: 2.5em;
     animation: buzz 4s linear infinite;
-
+    position: relative;
+    width: 0.87em;
+    left: 63%;
+    top: -50px;
 }
 
 @keyframes buzz {
     0%, 100% {
-        position: absolute;
         transform: translateY(0);
-        width: 0.87em;
-        top: 135px;
-        left: 60%;
     }
-    
     50% {
-        position: absolute;
         transform: translateY(-12px);
-        width: 0.87em;
-        top: 130px;
-        left: 60%;
     }
 }
 
@@ -112,8 +107,8 @@ p {
 
 /* BUTTON TO DISPLAY SKILLS*/
 .skills {
-    left: 20%;
-    position: absolute;
+    margin-left: 180px;
+    position: relative;
     background-color: white;
     border-color: beige;
     border-width: 1px;
@@ -135,8 +130,8 @@ p {
 /* display text shown upon hover inline of button */
 .skills:hover + .hide {
     display: inline-block;
-    left: 32%;
-    position: absolute;
+    left: 5%;
+    position: relative;
     font-family: 'Reenie Beany';
     font-size: 30px;
 }
@@ -168,6 +163,15 @@ p {
     to {
       background-position: 200% center;
     }
+}
+
+.card {
+    max-height: 40px;
+    max-width: 150px;
+}
+
+.card-text {
+    font-size: 25px;
 }
 
 
